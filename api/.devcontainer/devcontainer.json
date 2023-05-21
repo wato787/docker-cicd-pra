@@ -1,0 +1,17 @@
+{
+    "name": "api-container",
+    "service": "api",
+    "workspaceFolder": "/workspace",
+    "dockerComposeFile": "../../docker-compose.yml",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "vsjava.vscode-spring-initializr",
+          "vscjava.vscode-spring-boot-dashboard",
+          "vscode.vscode-java-pack",
+          "pivotal.vscode-boot-dev-pack",
+          "pivotal.vscode-spring-boot"
+        ]
+      }
+    }
+}
